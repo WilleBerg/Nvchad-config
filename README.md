@@ -1,4 +1,3 @@
-# Nvchad config
+# Example_config
 
-Has copilot as cmp. Some custom keymaps that can be found using the cheatsheet.
-It also has a colorcolumn on column 79.
+This can be used as an example custom config for NvChad, this branch is a minimal one. Do check the feature_full branch if you need all the ease in your config.

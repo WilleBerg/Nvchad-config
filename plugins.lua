@@ -5,6 +5,10 @@ local plugins = {
 
   -- Override plugin definition options
   {
+    "christoomey/vim-tmux-navigator",
+    lazy = false,
+  },
+  {
      "zbirenbaum/copilot.lua", lazy = true,
       cmd = "Copilot",
       event = "InsertEnter",
