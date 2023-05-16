@@ -10,6 +10,7 @@ local servers = {
   "tsserver",
   "clangd",
   "pyright",
+  "rust_analyzer",
 }
 
 for _, lsp in ipairs(servers) do
@@ -21,3 +22,9 @@ end
 
 -- 
 -- lspconfig.pyright.setup { blabla}
+lspconfig.rust_analyzer.setup {
+  -- Server-specific settings. See `:help lspconfig-setup`
+  settings = {
+    ['rust-analyzer'] = {},
+  },
+}

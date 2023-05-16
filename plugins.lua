@@ -2,7 +2,13 @@ local overrides = require("custom.configs.overrides")
 
 ---@type NvPluginSpec[]
 local plugins = {
-
+  -- {
+  --   "simrat39/rust-tools.nvim",
+  --   after = { "nvim-lspconfig" },
+  --   config = function()
+  --     require("rust-tools").setup({})
+  --   end,
+  -- },
   -- Override plugin definition options
   {
     "christoomey/vim-tmux-navigator",
@@ -54,7 +60,8 @@ local plugins = {
         "stylua",
         "autopep8",
         "pyright",
-        "pylint"
+        "pylint",
+        "rust_analyzer"
       }
     }
   },
